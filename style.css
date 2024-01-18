@@ -7,6 +7,9 @@
 }
 
 body {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -16,6 +19,7 @@ body {
     margin: 0 auto;
 }
 
+/* header */
 .header {
     padding-top: 37px;
     padding-bottom: 37px;
@@ -25,6 +29,7 @@ body {
     margin: 0 auto;
     max-width: 1440px;
     width: 100%;
+    position: relative;
     margin-bottom: 47px;
 }
 
@@ -69,6 +74,14 @@ body {
     text-decoration-skip-ink: none;
     text-decoration-color: #4c98e0;
     text-decoration-thickness: 2px;
+}
+
+/* ventus fashion */
+.background {
+    max-width: 1272px;
+    width: 100%;
+    height: 559px;
+    flex-shrink: 0;
 }
 
 .background img {
@@ -141,6 +154,7 @@ body {
     bottom: 141px;
     left: 57px;
     background: transparent;
+    width: 492px;
 }
 
 .text2:hover {
@@ -186,9 +200,11 @@ body {
     line-height: normal;
 }
 
+/* topics */
 .topics h1 {
-    margin-left: 84px;
+    position: relative;
     margin-bottom: 48px;
+    margin-left: 84px;
     color: #262626;
     font-family: Poppins;
     font-size: 32px;
@@ -206,11 +222,12 @@ body {
 
 .cards {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
-    margin-left: 83px;
-    margin-right: 83px;
     margin-bottom: 87.5px;
+    max-width: 1274px;
+    width: 100%;
 }
 
 .card {
@@ -218,7 +235,7 @@ body {
     width: 204px;
     height: 291px;
     align-items: center;
-    background: #FFF;
+    color: #FFF;
     box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
 }
 
@@ -246,14 +263,14 @@ body {
     margin-bottom: 30px;
     margin-left: 30px;
     margin-right: 30px;
-    background: #FFF;
+    color: #FFF;
     box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
 }
 
-.card img {
+.card-content img {
     width: 103px;
     height: 103px;
-    background: #FFF;
+    color: #FFF;
     box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
 }
 
@@ -268,6 +285,8 @@ body {
 }
 
 .card-content a {
+    width: 143.811px;
+    height: 35.953px;
     color: #262626;
     text-align: center;
     font-family: Poppins;
@@ -277,13 +296,18 @@ body {
     line-height: normal;
     letter-spacing: 0em;
     text-align: center;
+    text-wrap: nowrap;
     border-radius: 40px;
     border: #4CE0D7;
     background-color: #4CE0D7;
     padding: 10px 40px;
 }
 
+/* border-line */
 .border {
+    max-width: 1267px;
+    width: 100%;
+
     margin-bottom: 52.5px;
 }
 
@@ -293,4 +317,1193 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: center;
+}
+
+/* fashion */
+.card-main img {
+    max-width: 1204px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 23.34px;
+}
+
+.fashion-card {
+    border-radius: 20px;
+    min-width: 1204px;
+    width: 100%;
+    height: 698px;
+    align-items: center;
+    color: #FFF;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+}
+
+.fashion {
+    position: relative;
+    text-align: start;
+    margin: 0 auto;
+    margin-bottom: 97px;
+}
+
+.fashion2 {
+    position: absolute;
+    top: 23px;
+    left: 47.27px;
+    background-color: #262626;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 81px;
+    padding-right: 81px;
+}
+
+.fashion2:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.about-author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+}
+
+.author1 {
+    display: flex;
+    align-items: center;
+    margin-left: 62px;
+    gap: 49px;
+    margin-bottom: 6px;
+    margin: 0 auto;
+}
+
+.about-author1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author2 {
+    display: flex;
+    align-items: center;
+    margin-left: 62px;
+    gap: 49px;
+    margin-bottom: 6px;
+}
+
+.about-author2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alert a {
+    margin-right: 64px;
+}
+
+.about-author p {
+    color: #BCBCBC;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-author p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.alert a {
+    color: #F25E5E;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.36px;
+}
+
+.alert a:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-left: 64px;
+    margin-bottom: 40px;
+}
+
+.article h1 {
+    max-width: 1044px;
+    width: 100%;
+    color: #262626;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.article p {
+    max-width: 1033px;
+    width: 100%;
+    color: #262626;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.article h1:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.article p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.read {
+    display: flex;
+    margin-left: 65px;
+    gap: 11px;
+}
+
+.read p {
+    color: #4CE0D7;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.88px;
+}
+
+.read p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+/* tranding */
+.tranding {
+    margin-bottom: 88px;
+}
+
+.tranding h1 {
+    margin-bottom: 88px;
+}
+
+.post-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    margin: 0 auto;
+}
+
+.tranding h1 {
+    color: #262626;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 55.04px;
+    display: flex;
+    justify-content: center;
+}
+
+.tranding h1:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+/* latest-posts */
+.lifestyle-content {
+    width: 579.023px;
+    height: 278.094px;
+    flex-shrink: 0;
+    position: relative;
+    margin-bottom: 23.34px;
+}
+
+.lifestyle-content img {
+    max-width: 579.02px;
+    width: 100%;
+}
+
+.lifestyle {
+    position: absolute;
+    top: 20.67px;
+    left: 34.14px;
+    background-color: #262626;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 49.86px;
+    padding-right: 49.86px;
+}
+
+.lifestyle-content p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.author1 {
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    margin-bottom: 5px;
+}
+
+.author1 p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.author2 p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.about-author1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-author1 p {
+    color: #BCBCBC;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.article1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-left: 62px;
+}
+
+.article1 h1 {
+    width: 471px;
+    color: #262626;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0;
+}
+
+.article1 p {
+    width: 464px;
+    color: #262626;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.article1 p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.read1 {
+    display: flex;
+    gap: 11px;
+    margin-left: 62px;
+    margin-bottom: 36px;
+}
+
+.read1 p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.article2 p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.read2 p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.read1 p {
+    color: #4CE0D7;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.88px;
+}
+
+.summer-card {
+    margin-right: 80px;
+}
+
+.summer-content {
+    width: 565.893px;
+    height: 278.094px;
+    flex-shrink: 0;
+    position: relative;
+    margin-bottom: 23.34px;
+}
+
+.summer-content img {
+    max-width: 579.02px;
+    width: 100%;
+    margin-bottom: 23.34px;
+}
+
+.summer {
+    position: absolute;
+    top: 20.67px;
+    left: 34.14px;
+    background-color: #262626;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 49.86px;
+    padding-right: 49.86px;
+}
+
+.author2 {
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.about-author2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-author2 p {
+    color: #BCBCBC;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.article2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-left: 62px;
+}
+
+.article2 h1 {
+    width: 471px;
+    color: #262626;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0;
+}
+
+.article2 p {
+    width: 464px;
+    color: #262626;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.read2 {
+    display: flex;
+    gap: 11px;
+    margin-left: 62px;
+    margin-bottom: 36px;
+}
+
+.read2 p {
+    color: #4CE0D7;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.88px;
+}
+
+.post-cards {
+    display: flex;
+    margin-left: 118px;
+}
+
+.lifestyle-card {
+    color: #FFF;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.summer-card {
+    color: #FFF;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.latest-cards {
+    margin: 0 auto;
+    max-width: 1204px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 48.33px;
+}
+
+.fashion3 {
+    position: absolute;
+    top: 25.37px;
+    left: 34.14px;
+    background-color: #262626;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+.fashion3:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.reasons-card {
+    display: flex;
+    gap: 45.5px;
+    border-radius: 20px;
+    color: #FFF;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+}
+
+.author3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reasons-content {
+    width: 547.511px;
+    height: 367.409px;
+    flex-shrink: 0;
+    position: relative;
+    margin-bottom: 48.72px;
+}
+
+.reasons-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.article3-more {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25.38px;
+    margin-bottom: 35.66px;
+}
+
+.article3 h1 {
+    margin-bottom: 15px;
+}
+
+.article3 p {
+    margin-bottom: 19px;
+}
+
+.read3 {
+    display: flex;
+    gap: 10px;
+}
+
+.author3 p {
+    color: #BCBCBC;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.article3 h1 {
+    color: #262626;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.article3 p {
+    color: #262626;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.read3 p {
+    color: #4CE0D7;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.88px;
+}
+
+.ensembles {
+    position: absolute;
+    top: 25.37px;
+    left: 34.14px;
+    background-color: #262626;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+.ensembles:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.brands-content {
+    width: 547.511px;
+    height: 367.409px;
+    flex-shrink: 0;
+    position: relative;
+    margin-bottom: 48.72px;
+}
+
+.brands-card {
+    display: flex;
+    gap: 45.5px;
+    border-radius: 20px;
+    color: #FFF;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+}
+
+.author4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.brands-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.article4-more {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25.38px;
+    margin-bottom: 35.66px;
+}
+
+.article4 h1 {
+    margin-bottom: 15px;
+}
+
+.article4 p {
+    margin-bottom: 19px;
+}
+
+.read4 {
+    display: flex;
+    gap: 10px;
+}
+
+.author4 p {
+    color: #BCBCBC;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.article4 h1 {
+    color: #262626;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.article4 p {
+    color: #262626;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.read4 p {
+    color: #4CE0D7;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.88px;
+}
+
+.mental-health {
+    position: absolute;
+    top: 25.37px;
+    left: 34.14px;
+    background-color: #262626;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+.mental-health:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.health-card {
+    display: flex;
+    gap: 45.5px;
+    border-radius: 20px;
+    color: #FFF;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+}
+
+.health-content {
+    width: 547.511px;
+    height: 367.409px;
+    flex-shrink: 0;
+    position: relative;
+    margin-bottom: 156px;
+}
+
+.author5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.health-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.article5-more {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25.38px;
+    margin-bottom: 35.66px;
+}
+
+.article5 h1 {
+    margin-bottom: 15px;
+}
+
+.article5 p {
+    margin-bottom: 19px;
+}
+
+.read5 {
+    display: flex;
+    gap: 10px;
+}
+
+.author5 p {
+    color: #BCBCBC;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.article5 h1 {
+    color: #262626;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.article5 p {
+    color: #262626;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.read5 p {
+    color: #4CE0D7;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.88px;
+}
+
+.latest-posts {
+    margin-bottom: 69px;
+}
+
+.about-author3 {
+    margin-top: 18.14px;
+}
+
+.about-author4 {
+    margin-top: 18.14px;
+}
+
+.about-author5 {
+    margin-top: 18.14px;
+}
+
+.author3 p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.article3 h1:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.article3 p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.read3 p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.author4 p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.article4 h1:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.article4 p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.read4 p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.author5 p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.article5 h1:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.article5 p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+.read5 p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
+/* footer */
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 89px;
+    max-width: 1440px;
+    width: 100%;
+    margin-top: 87px;
+}
+
+.footer2 {
+    width: 100%;
+    margin-bottom: 77px;
+}
+
+.connect {
+    max-width: 653px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    width: 100%;
+    margin-bottom: 77px;
+    margin-top: 87px;
+}
+
+.social {
+    display: flex;
+    gap: 21px;
+    margin-right: 178px;
+}
+
+.connect p {
+    color: #262626;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.connect p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px; 
+}
+
+.border2 {
+    max-width: 1440px;
+    width: 100%;
+    margin-bottom: 77px;
+}
+
+.border2 img {
+    max-width: 1267px;
+    width: 100%;
+}
+
+.lux-ventus {
+    max-width: 1440px;
+    margin-bottom: 37px;
+    width: 100%;
+}
+
+.lux-ventus p {
+    color: #262626;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lux-ventus p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px; 
+}
+
+.footer {
+    max-width: 1440px;
+    width: 100%;
+    position: relative;
+    border-radius: 40px 40px 0px 0px;
+    color: #FFF;
+    box-shadow: 6px 0px 6px 0px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 1000px) {
+
+    .header {
+        margin-left: 120px;
+    }
+
+    .card-main img {
+        width: 1004px;
+        height: 360.304px;
+        flex-shrink: 0;
+    }
+
+    .background {
+        margin-left: 120px;
+    }
+
+    .fashion2 {
+        position: absolute;
+        top: 23px;
+        left: 107.27px;
+        background-color: #262626;
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 81px;
+        padding-right: 81px;
+    }
+
+    .topics {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 120px;
+    }
+
+    .cards {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+
+    .post-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .background .text1 {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2.76px;
+    }
+    
+    .background .main-text {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+    }
+    
+    .background p {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+    }
+
+    .text1 {
+        position: absolute;
+        bottom: 423px;
+        left: 57px;
+        background: transparent;
+        margin-left: 120px;
+    }
+
+    .main-text {
+        position: absolute;
+        bottom: 332px;
+        left: 57px;
+        background: transparent;
+        margin-left: 120px;
+    }
+
+    .text2 {
+        position: absolute;
+        bottom: 241px;
+        left: 57px;
+        background: transparent;
+        width: 492px;
+        margin-left: 120px;
+    }
+
+    .fashion {
+        margin-left: 80px;
+    }
+
+    .reasons-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 120px;
+    }
+
+    .brands-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 120px;
+    }
+
+    .health-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 120px;
+    }
+
+    .lux-ventus {
+        display: flex;
+        justify-content: center;
+    }
 }
