@@ -555,6 +555,13 @@ body {
     text-decoration-thickness: 2px;
 }
 
+.tranding p:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #4c98e0;
+    text-decoration-thickness: 2px;
+}
+
 /* latest-posts */
 .lifestyle-content {
     width: 579.023px;
